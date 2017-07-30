@@ -1,0 +1,14 @@
+{
+  "name": "TalkProxy",
+  "version": "0.0.1",
+  "description": "TalkProxy, don't install.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^0.41.4"
+  },
+  "author": "8qwe24657913",
+  "license": "GPLv3"
+}
