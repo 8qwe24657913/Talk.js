@@ -9,6 +9,10 @@
   "devDependencies": {
     "rollup": "^0.41.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/8qwe24657913/Talk.js.git"
+  },
   "author": "8qwe24657913",
-  "license": "GPLv3"
+  "license": "GPL-3.0"
 }

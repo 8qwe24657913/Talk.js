@@ -22,7 +22,7 @@ export default class Talk {
                     sendTo: sender
                 });
                 if (this._waiting[sender]) { // for who waits sender
-                    this._waiting[sender](sender);
+                    this._waiting[sender]();
                     this._waiting[sender] = null; // for garbage collection
                 }
                 return;

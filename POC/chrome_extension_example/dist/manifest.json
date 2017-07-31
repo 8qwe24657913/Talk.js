@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.bundle.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Talk.js Example Extension",
+   "manifest_version": 2,
+   "name": "Talk.js Example Extension",
+   "version": "0.0.0.0",
+   "web_accessible_resources": ["page.bundle.js"]
+}
